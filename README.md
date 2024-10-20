@@ -1,6 +1,6 @@
 
 # CNN Image Classifier
-![Static Badge](https://img.shields.io/badge/Python-3.7-grey?logo=python)
+![Static Badge](https://img.shields.io/badge/Python-3.11-grey?logo=python)
 ![Static Badge](https://img.shields.io/badge/google-colab-%23F9AB00?logo=googlecolab)
 ![Static Badge](https://img.shields.io/badge/conda-grey?logo=anaconda)
 ![Static Badge](https://img.shields.io/badge/Tensorflow-2.x-grey?logo=tensorflow)
@@ -15,11 +15,7 @@ This project leverages a **Convolutional Neural Network (CNN)** for classifying 
 
 ```
 CNN-Image-Classifier/
-        ├─ data/
-        |   ├─ train/
-        |   ├─ test/
-        |   ├─ validation/
-        ├─ models/
+        ├─ test_data/
         ├─ scripts/
         |   ├─ train_model.py
         |   ├─ preprocess_data.py
@@ -100,7 +96,7 @@ This will output the accuracy and loss of the model on unseen data.
 
 Ensure you have the following dependencies installed:
 
-- Python 3.7+
+- Python 3.11+
 - Tensorflow 2.x
 - CUDA 11.2 (for GPU support)
 - cuDNN 8.1
